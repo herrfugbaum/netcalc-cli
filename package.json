@@ -21,7 +21,8 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "commander": "^2.8.1"    
+    "commander": "^2.8.1",
+    "ipcalc": "^4.1.0"
   },
   "readme": "ERROR: No README data found!",
   "_id": "ipcalc-cli@0.0.1",
