@@ -1,0 +1,32 @@
+{
+  "name": "ipcalc-cli",
+  "version": "0.0.1",
+  "description": "Various IPv4 calucations from the command line.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slamcode/ipcalc-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Pascal Spiesz"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "bin": {
+    "ipcalc": "./bin/ipcalc.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "^2.8.1",
+    "ip-calc": "./private_modules/ip-calc"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "ipcalc-cli@0.0.1",
+  "_shasum": "234ff93e4300948ce29a883cb881503ce227bd3f",
+  "_from": "..\\..\\..\\Dropbox\\ipcalc-cli",
+  "_resolved": "file:..\\..\\..\\Dropbox\\ipcalc-cli"
+}

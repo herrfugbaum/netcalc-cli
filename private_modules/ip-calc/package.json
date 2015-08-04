@@ -1,0 +1,15 @@
+{
+  "name": "ip-calc",
+  "version": "0.0.1",
+  "description": "Module for various IP calculations.",
+  "main": "ipcalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip",
+    "calculation"
+  ],
+  "author": "Pascal Spiesz",
+  "license": "MIT"
+}
