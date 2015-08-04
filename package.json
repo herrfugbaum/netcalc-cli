@@ -1,6 +1,6 @@
 {
   "name": "ipcalc-cli",
-  "version": "0.0.1a",
+  "version": "1.0.2",
   "description": "Various IPv4 calucations from the command line.",
   "repository": {
     "type": "git",
