@@ -21,8 +21,7 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "commander": "^2.8.1",
-    "ip-calc": "./private_modules/ip-calc"
+    "commander": "^2.8.1"    
   },
   "readme": "ERROR: No README data found!",
   "_id": "ipcalc-cli@0.0.1",
