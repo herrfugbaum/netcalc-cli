@@ -1,6 +1,6 @@
 {
   "name": "ipcalc-cli",
-  "version": "0.0.1",
+  "version": "0.0.1a",
   "description": "Various IPv4 calucations from the command line.",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "preferGlobal": true,
   "dependencies": {
     "commander": "^2.8.1",
-    "ipcalc": "^4.1.0"
+    "ip-calc": "0.0.1"
   },
   "readme": "ERROR: No README data found!",
   "_id": "ipcalc-cli@0.0.1",
