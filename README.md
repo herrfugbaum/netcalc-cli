@@ -1,7 +1,10 @@
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
+- [Installation](#installation)
 - [How to use](#how-to-use)
     - [Some things to consider](#some-things-to-consider)
   - [Basics](#basics)
@@ -11,6 +14,14 @@
   - [CIDR to netmask](#cidr-to-netmask)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Installation
+
+*Note: You need node.js installed on your PC.*
+
+```
+npm install ipcalc-cli -g
+```
 
 ## How to use
 
