@@ -1,6 +1,6 @@
 {
   "name": "netcalc-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Various IPv4 calucations from the command line.",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "node": ">= 0.8.0"
   },
   "bin": {
-    "netcalc": "./bin/netcalc-cli.js"
+    "netcalc": "./bin/netcalc.js"
   },
   "preferGlobal": true,
   "dependencies": {
