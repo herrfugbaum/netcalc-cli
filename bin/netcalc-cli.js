@@ -5,7 +5,7 @@
  */
 
 var program = require('commander'),
-    ipCalc = require('ip-calc')
+    ipCalc = require('netcalc')
 
 program
   .version('0.0.1')
