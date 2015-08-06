@@ -4,7 +4,7 @@
   "description": "Various IPv4 calucations from the command line.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slamcode/ipcalc-cli.git"
+    "url": "git+https://github.com/slamcode/netcalc-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,6 @@
   "preferGlobal": true,
   "dependencies": {
     "commander": "^2.8.1",
-    "ip-calc": "0.0.1"
+    "netcalc": "0.0.1"
   }
 }

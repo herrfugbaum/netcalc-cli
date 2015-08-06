@@ -5,7 +5,7 @@
  */
 
 var program = require('commander'),
-    ipCalc = require('netcalc')
+    netCalc = require('netcalc')
 
 program
   .version('0.0.1')
@@ -22,27 +22,27 @@ if (!program.args.length) {
 
   if (program.ipToBinary) {
     var ipv4 = program.args[0]
-    console.log(ipCalc.ip4ToBinary(ipv4, ''))
+    console.log(netCalc.ip4ToBinary(ipv4, ''))
   }
 
   if (program.range) {
     var ipv4 = program.args[0],
         cidr = program.args[1]
 
-    console.log(ipCalc.calculateIp4Range(ipv4, cidr))
+    console.log(netCalc.calculateIp4Range(ipv4, cidr))
   }
 
   if (program.innerRange) {
     var min = program.args[0],
         max = program.args[1],
         minMax = [min, max]
-    console.log(ipCalc.getIp4InnerRange(minMax))
+    console.log(netCalc.getIp4InnerRange(minMax))
   }
 
   if (program.cidrToNetmask) {
     var cidr = program.args[0],
-        binmask = ipCalc.cidrToBinaryBitmask(cidr, '')
-    console.log(ipCalc.binaryBitmaskToNetmask(binmask, ''))
+        binmask = netCalc.cidrToBinaryBitmask(cidr, '')
+    console.log(netCalc.binaryBitmaskToNetmask(binmask, ''))
   }
 
 }
